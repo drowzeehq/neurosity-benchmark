@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js"
   },
   "keywords": [
     "notion",
@@ -11,7 +11,7 @@
     "hello",
     "world"
   ],
-  "author": "AJ Keller",
+  "author": "Lars Karbø",
   "license": "ISC",
   "dependencies": {
     "@drowzee/notion-mock": "^0.0.1",
