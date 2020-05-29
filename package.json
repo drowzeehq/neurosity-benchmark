@@ -1,0 +1,23 @@
+{
+  "name": "neurosity-benchmark",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+  },
+  "keywords": [
+    "notion",
+    "neurosity",
+    "hello",
+    "world"
+  ],
+  "author": "AJ Keller",
+  "license": "ISC",
+  "dependencies": {
+    "@drowzee/notion-mock": "^0.0.1",
+    "@neurosity/notion": "^4.4.0",
+    "chalk": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "rxjs": "^6.5.5"
+  }
+}
