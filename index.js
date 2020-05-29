@@ -7,10 +7,9 @@ const chalk = require('chalk');
 
 const SAMPLE_RATE = 250
 const PACKET_SIZE = 64
-const deviceId = process.env.DEVICE_ID || "1cae527942c778d5603c18391140dca6";
-const email = process.env.EMAIL || "lars@drowzee.com";
-const password =
-	process.env.PASSWORD || "enchanted private glowworm arson appointee gangrene";
+const deviceId = process.env.NRST_DEVICE_ID
+const email = process.env.NRST_EMAIL
+const password = process.env.NRST_PASSWORD
 
 console.log(`${email} attempting to authenticate with ${deviceId}`);
 
